@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roulette!</title>
+    <link rel = "stylesheet" href = "roulette.css" type = "text/css"></link>
+</head>
+<body>
+    <script src = "roulette.js" type = "javascript/text"></script>
+    <div id = "background">
+        <div id = "title">
+            <h1 id = "title_text">Roulette</h1>
+        </div>
+        <div id = "balance">
+            <p1 id = "money">$1000</p1>
+        </div>
+        <div id = "timer">
+            <h1 id = timerText>10.00</h1>
+        </div>
+        <div id = "spinner">
+        </div>
+        <div id = bettingContainer>
+            <div id = "bettingUI">
+                <button id = zeroButton onclick = betselector(0)>0</button>
+                <div class = buttonRow>
+                    <button class=numButtonRed id="3" onclick = betselector(3)>3</button>
+                    <button class=numButton id="6" onclick = betselector(6)>6</button>
+                    <button class=numButtonRed id="9" onclick = betselector(9)>9</button>
+                    <button class=numButtonRed id="12" onclick = betselector(12)>12</button>
+                    <button class=numButton id="15" onclick = betselector(15)>15</button>
+                    <button class=numButtonRed id="18" onclick = betselector(18)>18</button>
+                    <button class=numButtonRed id="21" onclick = betselector(21)>21</button>
+                    <button class=numButton id="24" onclick = betselector(24)>24</button>
+                    <button class=numButtonRed id="27" onclick = betselector(27)>27</button>
+                    <button class=numButtonRed id="30" onclick = betselector(30)>30</button>
+                    <button class=numButton id="33" onclick = betselector(33)>33</button>
+                    <button class=numButtonRed id="36" onclick = betselector(36)>36</button>
+                    <button class=twoone id = 211 onclick = betselector(211)>2-1</button>
+                </div>
+                <div class = buttonRow>
+                    <button class=numButton id="2" onclick = betselector(2)>2</button>
+                    <button class=numButtonRed id="5" onclick = betselector(5)>5</button>
+                    <button class=numButton id="8" onclick = betselector(8)>8</button>
+                    <button class=numButton id="11" onclick = betselector(11)>11</button>
+                    <button class=numButtonRed id="14" onclick = betselector(14)>14</button>
+                    <button class=numButton id="17" onclick = betselector(17)>17</button>
+                    <button class=numButton id="20" onclick = betselector(20)>20</button>
+                    <button class=numButtonRed id="23" onclick = betselector(23)>23</button>
+                    <button class=numButton id="26" onclick = betselector(26)>26</button>
+                    <button class=numButton id="29" onclick = betselector(29)>29</button>
+                    <button class=numButtonRed id="32" onclick = betselector(32)>31</button>
+                    <button class=numButton id="35" onclick = betselector(35)>34</button>
+                    <button class=twoone id = 212 onclick = betselector(212)>2-1</button>
+                </div>
+                <div class = buttonRow>
+                    <button class=numButtonRed id="1" onclick = betselector(1)>1</button>
+                    <button class=numButton id="4" onclick = betselector(4)>4</button>
+                    <button class=numButtonRed id="7" onclick = betselector(7)>7</button>
+                    <button class=numButton id="10" onclick = betselector(10)>10</button>
+                    <button class=numButton id="13" onclick = betselector(13)>13</button>
+                    <button class=numButtonRed id="16" onclick = betselector(16)>16</button>
+                    <button class=numButtonRed id="19" onclick = betselector(19)>19</button>
+                    <button class=numButton id="22" onclick = betselector(22)>22</button>
+                    <button class=numButtonRed id="25" onclick = betselector(25)>25</button>
+                    <button class=numButton id="28" onclick = betselector(28)>28</button>
+                    <button class=numButton id="31" onclick = betselector(31)>31</button>
+                    <button class=numButtonRed id="34" onclick = betselector(34)>34</button>
+                    <button class=twoone id = 213 onclick=betselector(213)>2-1</button>
+                </div>
+                <div id = bottomButtons>
+                    <div class = buttonRow>
+                        <button class = to12 id = 2121 onclick = betselector(2121)>1st 12</button>
+                        <button class = to12 id = 2122 onclick = betselector(2122)>2nd 12</button>
+                        <button class = to12 id = 2123 onclick = betselector(2123)>3rd 12</button>
+                    </div>
+                    <div class = buttonRow>
+                        <button class = bottomBets id = 118 onclick = betselector(118)>1 to 18</button>
+                        <button class = bottomBets id = "200" onclick = betselector(200)>Even</button>
+                        <button class = bottomBets id = "999" onclick = betselector(999)>Black</button>
+                        <button class = bottomBets id = "111" onclick = betselector(111)>Red</button>
+                        <button class = bottomBets id = 100 onclick = betselector(100)>Odd</button>
+                        <button class = bottomBets id = 1936 onclick = betselector(1936)>19 to 36</button>
+                    </div>
+                </div>
+            </div>
+            <div id = "betInfo">
+                <button id = placeBet>Place Bet!</button>
+            </div>
+        </div>
+    </div>
+    <script src = "roulette.js" type="text/javascript"></script>
+</body>
+</html>

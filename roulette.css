@@ -1,0 +1,248 @@
+*{margin: 0px; padding: 0px;}
+#background {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(56, 54, 54);
+}
+#title_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vh;
+    text-align: center;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    background-color: rgba(82, 10, 10, 0.288);
+}
+#balance {
+    width: 10%;
+    height: 7%;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: black; 
+    border-bottom-left-radius: 30px;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    border-color: rgba(204, 99, 99, 0.349);
+}
+#money {
+    font-size: 5vh;
+    color: white;
+    position: absolute;
+    right: 3%;
+}
+#timer {
+    width: 10%;
+    height: 8.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    background-color: black;
+    outline: 5px solid rgba(82, 10, 10, 0.288);
+}
+#timerText {
+    color: white;
+    text-align: center;
+    font-size: 8vh;
+}
+#spinner {
+    margin-top: 5%;
+    width: 100%;
+    height: 12%;
+    background-color: red;
+    margin-bottom: 3%;
+}
+#bettingContainer {
+    background-color: rgba(138, 179, 131, 0.801);
+    height: 40%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+#bettingUI {
+    width: 65%;
+    height: 70%;
+    position: relative;
+    padding: 2%;
+    padding-right: 0%;
+    padding-top: 1%;
+    margin-left: 1%;
+    border-radius: 20px;
+}
+#betInfo{
+    margin-top: -18.75%; 
+    margin-left: 67.5%;
+    width: 30%;
+    height: 90%;
+    background-color: rgb(59, 59, 59);
+    border-radius: 30px;
+    box-shadow: 0 9px rgb(80, 80, 80);
+    border: 7px solid rgb(165, 47, 47);
+}
+#placeBet {
+    margin-top: 52%;
+    position: relative;
+    width: 70%;
+    height: 20%;
+    border: 5px solid rgb(165, 47, 47);
+    background-color: black;
+    margin-left: 15%;
+    color: rgb(236, 34, 34);
+    font-size: 4vh;
+    border-radius: 15px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 7px rgb(34, 33, 33);
+}
+#placeBet:active{
+    transform: translateY(5px);
+    box-shadow: 0 2px rgb(34, 33, 33);
+}
+
+
+
+
+
+
+/* betting buttons*/
+.buttonRow {
+    -webkit-appearance: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .9%;
+    padding-left: 1%;
+    height: 22%;
+}
+#bottomButtons {
+    margin-left: -7.4%;
+}
+.numButton {
+    border-radius: 10px;
+    box-shadow: 0 6px rgb(80, 80, 80);
+    font-size: 2vh;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: rgb(59, 59, 59);
+    height: 100%;
+    width: 7%;
+    cursor: pointer;
+    border: solid transparent;
+    font-weight: bold;
+}
+.numButtonRed {
+    border-radius: 10px;
+    box-shadow: 0 6px rgb(80, 80, 80);
+    font-size: 2vh;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 34, 34);
+    height: 100%;
+    width: 7%;
+    cursor: pointer;
+    border: solid transparent;
+    font-weight: bold;
+}
+.numButton:hover {
+    opacity: 80%;
+    outline: white;
+    border: solid;
+    border-color: white;
+}
+.numButtonRed:hover {
+    opacity: 80%;
+    outline: white;
+    border: solid;
+    border-color: white;
+}
+.twoone {
+    border-radius: 10px;
+    box-shadow: 0 6px rgb(80, 80, 80);
+    font-size: 2vh;
+    white-space: nowrap;
+    background-color: green;
+    display: inline-block;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 7%;
+    cursor: pointer;
+    border: solid transparent;
+    font-weight: bold;
+}
+.twoone:hover {
+    opacity: 80%;
+    outline: white;
+    border: solid;
+    border-color: white;
+}
+.to12 {
+    border-radius: 10px;
+    box-shadow: 0 6px rgb(80, 80, 80);
+    font-size: 2vh;
+    white-space: nowrap;
+    background-color: green;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1%;
+    width: 27.17%;
+    cursor: pointer;
+    border: solid transparent;
+    font-weight: bold;
+}
+.to12:hover {
+    opacity: 80%;
+    outline: white;
+    border: solid;
+    border-color: white;
+}
+.bottomBets {
+    border-radius: 10px;
+    box-shadow: 0 6px rgb(80, 80, 80);
+    margin-top: .1%;
+    font-size: 2vh;
+    white-space: nowrap;
+    background-color: green;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1%;
+    width: 13.415%;
+    cursor: pointer;
+    border: solid transparent;
+    font-weight: bold;
+}
+.bottomBets:hover{
+    opacity: 80%;
+    outline: white;
+    border: solid;
+    border-color: white;
+}
+#zeroButton {
+    box-shadow: 0 6px rgb(80, 80, 80);
+    font-size: 4vh;
+    margin-left: -2%;
+    margin-top: .9%;
+    position: absolute;
+    background-color: green;
+    outline: none;
+    border: none;
+    height: 61%;
+    width: 4.5%;
+    cursor: pointer;
+    border: solid transparent;
+    border-top-left-radius: 120% 90%;
+    border-bottom-left-radius: 120% 90%;
+    font-weight: bold;
+}
+#zeroButton:hover {
+    opacity: 80%;
+    outline: white;
+    border: solid;
+    border-color: white;
+}
